@@ -38,7 +38,11 @@ app.get('/getResponse', (req, res) => {
 // })
 
 
+<<<<<<< HEAD
 app.get('*', (req, res) => {
+=======
+app.get('*', ()=>{
+>>>>>>> f44020e98304a34b06f6c832fecf100506605809
     res.status(404).json({
         msg: 'bad request'
     })
